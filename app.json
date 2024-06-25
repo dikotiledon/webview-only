@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "eHub",
+    "slug": "eHub",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "android": {
+      "package": "com.seinp.eHub"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive",
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview2": {
+        "android": {
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview3": {
+        "developmentClient": true
+      },
+      "production": {}
+    }
+  }
+}
